@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cabral Inforedes · Assistência técnica de notebook e PC em São Paulo</title>
+  <meta name="description" content="Troca de tela e teclado, reparo de placa-mãe de notebook, manutenção de computadores, suporte remoto e instalação de câmeras de segurança em São Paulo capital. Orçamento pelo WhatsApp (11) 97677-8693.">
+  <meta name="theme-color" content="#13233a">
+  <meta property="og:title" content="Cabral Inforedes · Assistência técnica em São Paulo">
+  <meta property="og:description" content="Notebook, PC e câmeras de segurança. Orçamento direto com o técnico pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Cabral Inforedes",
+    "description": "Serviços de tecnologia e informática: troca de tela e teclado, reparo de placa-mãe de notebook, suporte e manutenção de computadores, acesso remoto e instalação de câmeras de segurança.",
+    "telephone": "+55 11 97677-8693",
+    "areaServed": "São Paulo, SP",
+    "sameAs": ["https://www.instagram.com/cabralinforedes/"]
+  }
+  </script>
+</head>
+<body>
+<!--
+THESIS: A página é a prancha de um manual de conserto. O notebook aparece em vista explodida, cada peça com um número que leva ao serviço que a conserta. Recusa o padrão "hero + foto de banco + cinco cards de ícone + três passos".
+OWN-WORLD: Papel técnico azul-claro (#eef2f6) com traço marinho (#13233a), faces isométricas em tons frios, chamadas numeradas em círculos marinhos, prancha marinha cheia para os caminhos. As três setas do logo (vermelho #c95246, âmbar #e0b045, azul #39b1e2) são os três caminhos até o conserto. Archivo expandido em caixa-alta para títulos (eco do CABRAL), Archivo condensado para rótulos de figura, Atkinson Hyperlegible no texto. Cantos retos, legendas "Fig.", carimbo técnico no rodapé.
+STORY: O visitante reconhece a peça com problema, vê que a Cabral conhece a máquina por dentro, escolhe como quer ser atendido e toca no WhatsApp.
+FIRST VIEWPORT: Desktop: à esquerda (6/12) título grande, subtítulo e o botão âmbar do WhatsApp; à direita (6/12) a Fig. 1 em altura total com o notebook explodindo ao carregar e quatro chamadas numeradas. Celular: título, botão e a figura logo abaixo, em largura total. O botão do WhatsApp fica no topo e, depois do hero, numa barra fixa embaixo.
+FORM: Manual técnico (vista explodida), 4ª da lista ordenada; seed 6f48c985.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+-->
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="bar" id="topo">
+  <div class="bar-inner">
+    <a class="brand" href="#topo" aria-label="Cabral Inforedes, início">
+      <svg class="brand-mark" viewBox="0 0 64 48" aria-hidden="true"><use href="#logo-mark"/></svg>
+      <span class="brand-word"><span class="brand-name">Cabral</span><span class="brand-sub">Inforedes</span></span>
+    </a>
+    <nav class="nav" aria-label="Seções">
+      <a href="#servicos">Serviços</a>
+      <a href="#atendimento">Atendimento</a>
+      <a href="#cameras">Câmeras</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+    <a class="btn btn-wa btn-sm" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-wa"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <h1 id="hero-title">Seu computador, <span class="nowrap">por dentro</span> e por fora.</h1>
+      <p class="lede">Troca de tela e teclado, reparo de placa-mãe, manutenção de notebook e PC, suporte remoto e câmeras de segurança. Em São Paulo capital, direto com o técnico.</p>
+      <div class="hero-actions">
+        <a class="btn btn-wa btn-lg" id="hero-cta" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-wa"/></svg>
+          <span>Pedir orçamento no WhatsApp</span>
+        </a>
+        <a class="link-arrow" href="#servicos">Ver todos os serviços</a>
+      </div>
+      <p class="hero-note"><strong>10% de desconto</strong> no seu primeiro serviço. <a href="#desconto">Como usar</a></p>
+    </div>
+
+    <figure class="fig fig-exploded" id="fig1" data-active="">
+      <div class="fig-sheet">
+        <button class="fig-toggle" type="button" aria-pressed="false">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 7l6-4 6 4M4 13l6 4 6-4" /></svg>
+          <span class="fig-toggle-label">Montar</span>
+        </button>
+        <svg class="exploded" viewBox="-200 -455 600 720" role="img" aria-labelledby="fig1-title">
+          <title id="fig1-title">Notebook em vista explodida: tela, teclado, placa-mãe e carcaça separados, com números indicando o serviço de cada parte.</title>
+          <g class="layer layer-case" data-part="case"><polygon class="f-front case" points="-173.2,84 86.6,234 86.6,250 -173.2,100"/><polygon class="f-side case" points="259.8,134 86.6,234 86.6,250 259.8,150"/><polygon class="f-top case" points="0,-16 259.8,134 86.6,234 -173.2,84"/><polygon class="inner" points="0,-6 242.5,134 86.6,224 -155.9,84"/><line class="thin" x1="-121.2" y1="125" x2="-116" y2="122"/><line class="thin" x1="-110.9" y1="131" x2="-105.7" y2="128"/><line class="thin" x1="-100.5" y1="137" x2="-95.3" y2="134"/><line class="thin" x1="-90.1" y1="143" x2="-84.9" y2="140"/><line class="thin" x1="-79.7" y1="149" x2="-74.5" y2="146"/><line class="thin" x1="-69.3" y1="155" x2="-64.1" y2="152"/><line class="thin" x1="-58.9" y1="161" x2="-53.7" y2="158"/><line class="thin" x1="-48.5" y1="167" x2="-43.3" y2="164"/><line class="thin" x1="-38.1" y1="173" x2="-32.9" y2="170"/><polygon class="f-front battery" points="-31.2,144 81.4,209 81.4,217 -31.2,152"/><polygon class="f-side battery" points="140.3,175 81.4,209 81.4,217 140.3,183"/><polygon class="f-top battery" points="27.7,110 140.3,175 81.4,209 -31.2,144"/><polygon class="label" points="29.4,125 93.5,162 58.9,182 -5.2,145"/><polygon class="fan-ring" points="-46.8,106.5 -51.1,108.7 -56.1,110.4 -61.4,111.7 -67,112.5 -72.7,112.7 -78.5,112.5 -84.1,111.7 -89.4,110.4 -94.3,108.7 -98.7,106.5 -102.5,104 -105.5,101.1 -107.7,98.1 -109,94.8 -109.5,91.5 -109,88.2 -107.7,84.9 -105.5,81.9 -102.5,79 -98.7,76.5 -94.3,74.3 -89.4,72.6 -84.1,71.3 -78.5,70.5 -72.7,70.3 -67,70.5 -61.4,71.3 -56.1,72.6 -51.1,74.3 -46.8,76.5 -43,79 -40,81.9 -37.8,84.9 -36.5,88.2 -36,91.5 -36.5,94.8 -37.8,98.1 -40,101.1 -43,104"/><polygon class="fan-hub" points="-64.1,96.4 -65.5,97.1 -67.2,97.7 -69,98.1 -70.8,98.4 -72.7,98.5 -74.7,98.4 -76.5,98.1 -78.3,97.7 -79.9,97.1 -81.4,96.4 -82.7,95.6 -83.7,94.6 -84.4,93.6 -84.8,92.5 -85,91.4 -84.8,90.3 -84.4,89.2 -83.7,88.2 -82.7,87.2 -81.4,86.4 -79.9,85.7 -78.3,85.1 -76.5,84.7 -74.7,84.4 -72.7,84.3 -70.8,84.4 -69,84.7 -67.2,85.1 -65.5,85.7 -64.1,86.4 -62.8,87.2 -61.8,88.2 -61.1,89.2 -60.6,90.3 -60.5,91.4 -60.6,92.5 -61.1,93.6 -61.8,94.6 -62.8,95.6"/><line class="blade" x1="-63.2" y1="96.9" x2="-63.4" y2="109.7"/><line class="blade" x1="-74.3" y1="99.1" x2="-91.7" y2="107"/><line class="blade" x1="-84.2" y1="95.5" x2="-105.8" y2="92.6"/><line class="blade" x1="-85.5" y1="88.8" x2="-94.9" y2="77.2"/><line class="blade" x1="-77.2" y1="84.1" x2="-67.4" y2="72.6"/><line class="blade" x1="-65.6" y1="84.8" x2="-43.9" y2="82.1"/><line class="blade" x1="-59.4" y1="90.5" x2="-42.1" y2="98.6"/></g>
+          <g class="layer layer-board" data-part="board"><polygon class="f-front board" points="-133.4,-1 98.7,133 98.7,137 -133.4,3"/><polygon class="f-side board" points="233.8,55 98.7,133 98.7,137 233.8,59"/><polygon class="f-top board" points="1.7,-79 233.8,55 98.7,133 -133.4,-1"/><line class="trace" x1="31.2" y1="8" x2="88.3" y2="41"/><line class="trace" x1="26" y1="11" x2="83.1" y2="44"/><line class="trace" x1="20.8" y1="14" x2="77.9" y2="47"/><line class="trace" x1="15.6" y1="17" x2="72.7" y2="50"/><line class="trace" x1="10.4" y1="20" x2="67.5" y2="53"/><line class="trace" x1="57.2" y1="69" x2="114.3" y2="102"/><line class="trace" x1="50.2" y1="73" x2="107.4" y2="106"/><line class="trace" x1="43.3" y1="77" x2="100.5" y2="110"/><line class="trace" x1="36.4" y1="81" x2="93.5" y2="114"/><line class="trace" x1="84.9" y1="71" x2="76.2" y2="76"/><line class="trace" x1="93.5" y1="76" x2="84.9" y2="81"/><line class="trace" x1="102.2" y1="81" x2="93.5" y2="86"/><line class="trace" x1="110.9" y1="86" x2="102.2" y2="91"/><polygon class="f-front chip" points="71,55 112.6,79 112.6,85 71,61"/><polygon class="f-side chip" points="154.2,55 112.6,79 112.6,85 154.2,61"/><polygon class="f-top chip" points="112.6,31 154.2,55 112.6,79 71,55"/><polygon class="die" points="112.6,41 136.8,55 112.6,69 88.3,55"/><polygon class="f-front ram" points="-88.3,-12 19.1,50 19.1,55 -88.3,-7"/><polygon class="f-side ram" points="27.7,45 19.1,50 19.1,55 27.7,50"/><polygon class="f-top ram" points="-79.7,-17 27.7,45 19.1,50 -88.3,-12"/><polygon class="f-front ram" points="-105.7,-2 1.7,60 1.7,65 -105.7,3"/><polygon class="f-side ram" points="10.4,55 1.7,60 1.7,65 10.4,60"/><polygon class="f-top ram" points="-97,-7 10.4,55 1.7,60 -105.7,-2"/><polygon class="f-front chip-s" points="-58.9,-24 -38.1,-12 -38.1,-8 -58.9,-20"/><polygon class="f-side chip-s" points="-20.8,-22 -38.1,-12 -38.1,-8 -20.8,-18"/><polygon class="f-top chip-s" points="-41.6,-34 -20.8,-22 -38.1,-12 -58.9,-24"/><polygon class="f-front chip-s" points="-27.7,-6 -10.4,4 -10.4,8 -27.7,-2"/><polygon class="f-side chip-s" points="6.9,-6 -10.4,4 -10.4,8 6.9,-2"/><polygon class="f-top chip-s" points="-10.4,-16 6.9,-6 -10.4,4 -27.7,-6"/><polygon class="f-front port" points="107.4,110 116,115 116,123 107.4,118"/><polygon class="f-side port" points="142,100 116,115 116,123 142,108"/><polygon class="f-top port" points="133.4,95 142,100 116,115 107.4,110"/></g>
+          <g class="layer layer-keys" data-part="keys"><polygon class="f-front deck" points="-173.2,-120 86.6,30 86.6,40 -173.2,-110"/><polygon class="f-side deck" points="259.8,-70 86.6,30 86.6,40 259.8,-60"/><polygon class="f-top deck" points="0,-220 259.8,-70 86.6,30 -173.2,-120"/><polygon class="well" points="5.2,-199 223.4,-73 131.6,-20 -86.6,-146"/><polygon class="key" points="5.2,-191.3 17.7,-184.1 4.9,-176.7 -7.6,-183.9"/><polygon class="key" points="21.2,-182.1 33.7,-174.8 20.9,-167.4 8.4,-174.7"/><polygon class="key" points="37.2,-172.8 49.7,-165.6 36.9,-158.2 24.4,-165.4"/><polygon class="key" points="53.2,-163.6 65.7,-156.4 52.9,-149 40.3,-156.2"/><polygon class="key" points="69.1,-154.4 81.7,-147.1 68.9,-139.7 56.3,-147"/><polygon class="key" points="85.1,-145.1 97.7,-137.9 84.8,-130.5 72.3,-137.7"/><polygon class="key" points="101.1,-135.9 113.6,-128.7 100.8,-121.3 88.3,-128.5"/><polygon class="key" points="117.1,-126.7 129.6,-119.5 116.8,-112.1 104.3,-119.3"/><polygon class="key" points="133.1,-117.5 145.6,-110.2 132.8,-102.8 120.3,-110.1"/><polygon class="key" points="149.1,-108.2 161.6,-101 148.8,-93.6 136.3,-100.8"/><polygon class="key" points="165.1,-99 177.6,-91.8 164.8,-84.4 152.3,-91.6"/><polygon class="key" points="181.1,-89.8 193.6,-82.5 180.8,-75.1 168.2,-82.4"/><polygon class="key" points="197.1,-80.5 209.6,-73.3 196.8,-65.9 184.2,-73.1"/><polygon class="key" points="-11.1,-181.9 1.4,-174.7 -11.4,-167.3 -23.9,-174.5"/><polygon class="key" points="4.9,-172.7 17.4,-165.4 4.6,-158 -7.9,-165.3"/><polygon class="key" points="20.9,-163.4 33.4,-156.2 20.6,-148.8 8.1,-156"/><polygon class="key" points="36.9,-154.2 49.4,-147 36.6,-139.6 24.1,-146.8"/><polygon class="key" points="52.9,-145 65.4,-137.7 52.6,-130.3 40.1,-137.6"/><polygon class="key" points="68.9,-135.7 81.4,-128.5 68.6,-121.1 56,-128.3"/><polygon class="key" points="84.8,-126.5 97.4,-119.3 84.6,-111.9 72,-119.1"/><polygon class="key" points="100.8,-117.3 113.4,-110.1 100.5,-102.7 88,-109.9"/><polygon class="key" points="116.8,-108.1 129.3,-100.8 116.5,-93.4 104,-100.7"/><polygon class="key" points="132.8,-98.8 145.3,-91.6 132.5,-84.2 120,-91.4"/><polygon class="key" points="148.8,-89.6 161.3,-82.4 148.5,-75 136,-82.2"/><polygon class="key" points="164.8,-80.4 177.3,-73.1 164.5,-65.7 152,-73"/><polygon class="key" points="180.8,-71.1 193.3,-63.9 180.5,-56.5 168,-63.7"/><polygon class="key" points="-27.4,-172.5 -14.8,-165.3 -27.7,-157.9 -40.2,-165.1"/><polygon class="key" points="-11.4,-163.3 1.1,-156 -11.7,-148.6 -24.2,-155.9"/><polygon class="key" points="4.6,-154 17.1,-146.8 4.3,-139.4 -8.2,-146.6"/><polygon class="key" points="20.6,-144.8 33.1,-137.6 20.3,-130.2 7.8,-137.4"/><polygon class="key" points="36.6,-135.6 49.1,-128.3 36.3,-120.9 23.8,-128.2"/><polygon class="key" points="52.6,-126.3 65.1,-119.1 52.3,-111.7 39.8,-118.9"/><polygon class="key" points="68.6,-117.1 81.1,-109.9 68.3,-102.5 55.7,-109.7"/><polygon class="key" points="84.6,-107.9 97.1,-100.7 84.3,-93.3 71.7,-100.5"/><polygon class="key" points="100.5,-98.7 113.1,-91.4 100.2,-84 87.7,-91.3"/><polygon class="key" points="116.5,-89.4 129.1,-82.2 116.2,-74.8 103.7,-82"/><polygon class="key" points="132.5,-80.2 145,-73 132.2,-65.6 119.7,-72.8"/><polygon class="key" points="148.5,-71 161,-63.7 148.2,-56.3 135.7,-63.6"/><polygon class="key" points="164.5,-61.7 177,-54.5 164.2,-47.1 151.7,-54.3"/><polygon class="key" points="-43.6,-163.1 -31.1,-155.9 -43.9,-148.5 -56.5,-155.7"/><polygon class="key" points="-27.7,-153.9 -15.1,-146.6 -28,-139.2 -40.5,-146.5"/><polygon class="key" points="-11.7,-144.6 0.9,-137.4 -12,-130 -24.5,-137.2"/><polygon class="key" points="4.3,-135.4 16.8,-128.2 4,-120.8 -8.5,-128"/><polygon class="key" points="20.3,-126.2 32.8,-118.9 20,-111.5 7.5,-118.8"/><polygon class="key" points="36.3,-116.9 48.8,-109.7 36,-102.3 23.5,-109.5"/><polygon class="key" points="52.3,-107.7 64.8,-100.5 52,-93.1 39.5,-100.3"/><polygon class="key" points="68.3,-98.5 80.8,-91.3 68,-83.9 55.5,-91.1"/><polygon class="key" points="84.3,-89.3 96.8,-82 84,-74.6 71.4,-81.9"/><polygon class="key" points="100.2,-80 112.8,-72.8 100,-65.4 87.4,-72.6"/><polygon class="key" points="116.2,-70.8 128.8,-63.6 115.9,-56.2 103.4,-63.4"/><polygon class="key" points="132.2,-61.6 144.7,-54.3 131.9,-46.9 119.4,-54.2"/><polygon class="key" points="148.2,-52.3 160.7,-45.1 147.9,-37.7 135.4,-44.9"/><polygon class="key" points="-59.9,-153.7 -47.4,-146.5 -60.2,-139.1 -72.7,-146.3"/><polygon class="key" points="-43.9,-144.5 -31.4,-137.2 -44.2,-129.8 -56.8,-137.1"/><polygon class="key" points="-28,-135.2 -15.4,-128 -28.2,-120.6 -40.8,-127.8"/><polygon class="key" points="-12,-126 0.6,-118.8 -12.3,-111.4 -24.8,-118.6"/><polygon class="key" points="4,-116.8 80.5,-72.6 67.7,-65.2 -8.8,-109.4"/><polygon class="key" points="84,-70.6 96.5,-63.4 83.7,-56 71.1,-63.2"/><polygon class="key" points="100,-61.4 112.5,-54.2 99.7,-46.8 87.1,-54"/><polygon class="key" points="115.9,-52.2 128.5,-44.9 115.6,-37.5 103.1,-44.8"/><polygon class="key" points="131.9,-42.9 144.5,-35.7 131.6,-28.3 119.1,-35.5"/><polygon class="pad" points="-24.2,-96.2 45,-56.2 3.5,-32.2 -65.8,-72.2"/></g>
+          <g class="layer layer-lid" data-part="lid"><polygon class="f-front lid" points="0,-430 259.8,-280 259.8,-90 0,-240"/><polygon class="f-side lid" points="268.5,-285 259.8,-280 259.8,-90 268.5,-95"/><polygon class="f-top lid" points="8.7,-435 268.5,-285 259.8,-280 0,-430"/></g>
+          <g class="layer layer-screen" data-part="screen"><polygon class="f-front panel" points="-34.6,-396 214.8,-252 214.8,-78 -34.6,-222"/><polygon class="f-side panel" points="218.2,-254 214.8,-252 214.8,-78 218.2,-80"/><polygon class="f-top panel" points="-31.2,-398 218.2,-254 214.8,-252 -34.6,-396"/><polygon class="glass" points="-24.2,-378 204.4,-246 204.4,-96 -24.2,-228"/><line class="scr-a red" x1="20.8" y1="-234" x2="64.1" y2="-249"/><line class="scr-a amber" x1="43.3" y1="-219" x2="107.4" y2="-252"/><line class="scr-a blue" x1="67.5" y1="-203" x2="152.4" y2="-252"/></g>
+          <g class="callouts">
+            <a href="#svc-tela" data-part="screen" aria-label="1, tela">
+              <circle class="lead-dot" cx="176.7" cy="-242" r="3.5"/>
+              <polyline class="lead" points="176.7,-242 300,-300 322,-300"/>
+              <circle class="callout" cx="340" cy="-300" r="18"/><text x="340" y="-300">1</text>
+            </a>
+            <a href="#svc-teclado" data-part="keys" aria-label="2, teclado">
+              <circle class="lead-dot" cx="155.9" cy="-70" r="3.5"/>
+              <polyline class="lead" points="155.9,-70 300,-112 322,-112"/>
+              <circle class="callout" cx="340" cy="-112" r="18"/><text x="340" y="-112">2</text>
+            </a>
+            <a href="#svc-placa" data-part="board" aria-label="3, placa-mãe">
+              <circle class="lead-dot" cx="112.6" cy="55" r="3.5"/>
+              <polyline class="lead" points="112.6,55 300,60 322,60"/>
+              <circle class="callout" cx="340" cy="60" r="18"/><text x="340" y="60">3</text>
+            </a>
+            <a href="#svc-manutencao" data-part="case" aria-label="4, suporte e manutenção">
+              <circle class="lead-dot" cx="-72.7" cy="91" r="3.5"/>
+              <polyline class="lead" points="-72.7,91 -150,196 -150,214"/>
+              <circle class="callout" cx="-150" cy="232" r="18"/><text x="-150" y="232">4</text>
+            </a>
+          </g>
+        </svg>
+      </div>
+      <figcaption>
+        <span class="fig-no">Fig. 1</span>
+        <span>Notebook em vista explodida. Toque num número para ver o serviço.</span>
+      </figcaption>
+      <ol class="legend">
+        <li><a href="#svc-tela" data-part="screen"><b>1</b> Tela</a></li>
+        <li><a href="#svc-teclado" data-part="keys"><b>2</b> Teclado</a></li>
+        <li><a href="#svc-placa" data-part="board"><b>3</b> Placa-mãe</a></li>
+        <li><a href="#svc-manutencao" data-part="case"><b>4</b> Suporte e manutenção</a></li>
+      </ol>
+    </figure>
+  </section>
+
+  <section class="parts" id="servicos" aria-labelledby="servicos-title">
+    <div class="section-head">
+      <h2 id="servicos-title">Lista de serviços</h2>
+      <p>Encontre o que está acontecendo com o seu equipamento. Cada linha leva direto a um orçamento no WhatsApp, com a mensagem pronta.</p>
+    </div>
+
+    <ol class="parts-list">
+      <li class="part" id="svc-tela" data-part="screen">
+        <div class="part-ref"><span class="ref">1</span><span class="ref-fig">Fig. 1</span></div>
+        <h3 class="part-name">Troca de tela</h3>
+        <p class="part-symptom"><span class="part-label">Quando</span> Tela trincada, manchada, com listras ou sem imagem.</p>
+        <p class="part-service"><span class="part-label">Serviço</span> Substituição da tela do notebook.</p>
+        <a class="part-cta" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site.%20Quero%20um%20or%C3%A7amento%20para%20troca%20de%20tela%20do%20notebook." target="_blank" rel="noopener">Orçar troca de tela</a>
+      </li>
+      <li class="part" id="svc-teclado" data-part="keys">
+        <div class="part-ref"><span class="ref">2</span><span class="ref-fig">Fig. 1</span></div>
+        <h3 class="part-name">Troca de teclado</h3>
+        <p class="part-symptom"><span class="part-label">Quando</span> Teclas que não respondem, soltaram ou pararam depois de cair líquido.</p>
+        <p class="part-service"><span class="part-label">Serviço</span> Substituição do teclado do notebook.</p>
+        <a class="part-cta" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site.%20Quero%20um%20or%C3%A7amento%20para%20troca%20de%20teclado%20do%20notebook." target="_blank" rel="noopener">Orçar troca de teclado</a>
+      </li>
+      <li class="part" id="svc-placa" data-part="board">
+        <div class="part-ref"><span class="ref">3</span><span class="ref-fig">Fig. 1</span></div>
+        <h3 class="part-name">Reparo em placa-mãe</h3>
+        <p class="part-symptom"><span class="part-label">Quando</span> O notebook não liga, desliga sozinho ou parou de carregar.</p>
+        <p class="part-service"><span class="part-label">Serviço</span> Diagnóstico e reparo da placa-mãe do notebook.</p>
+        <a class="part-cta" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site.%20Quero%20um%20or%C3%A7amento%20para%20reparo%20na%20placa-m%C3%A3e%20do%20notebook." target="_blank" rel="noopener">Orçar reparo de placa</a>
+      </li>
+      <li class="part" id="svc-manutencao" data-part="case">
+        <div class="part-ref"><span class="ref">4</span><span class="ref-fig">Fig. 1</span></div>
+        <h3 class="part-name">Suporte e manutenção</h3>
+        <p class="part-symptom"><span class="part-label">Quando</span> Computador lento, esquentando, fazendo barulho ou travando.</p>
+        <p class="part-service"><span class="part-label">Serviço</span> Suporte e manutenção de notebooks e PCs de mesa.</p>
+        <a class="part-cta" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site.%20Quero%20um%20or%C3%A7amento%20para%20manuten%C3%A7%C3%A3o%20do%20meu%20computador." target="_blank" rel="noopener">Orçar manutenção</a>
+      </li>
+      <li class="part" id="svc-remoto">
+        <div class="part-ref"><span class="ref">5</span><span class="ref-fig">Fig. 2</span></div>
+        <h3 class="part-name">Suporte remoto</h3>
+        <p class="part-symptom"><span class="part-label">Quando</span> Programa que não abre, configuração ou dúvida no sistema.</p>
+        <p class="part-service"><span class="part-label">Serviço</span> Acesso remoto para suporte online, sem sair de casa.</p>
+        <a class="part-cta" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site.%20Preciso%20de%20suporte%20remoto." target="_blank" rel="noopener">Pedir suporte remoto</a>
+      </li>
+      <li class="part" id="svc-cameras">
+        <div class="part-ref"><span class="ref">6</span><span class="ref-fig">Fig. 3</span></div>
+        <h3 class="part-name">Câmeras de segurança</h3>
+        <p class="part-symptom"><span class="part-label">Quando</span> Você quer acompanhar a casa, a loja ou o escritório.</p>
+        <p class="part-service"><span class="part-label">Serviço</span> Instalação de câmeras de segurança.</p>
+        <a class="part-cta" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site.%20Quero%20um%20or%C3%A7amento%20para%20instala%C3%A7%C3%A3o%20de%20c%C3%A2meras." target="_blank" rel="noopener">Orçar câmeras</a>
+      </li>
+    </ol>
+  </section>
+
+  <section class="plate" id="atendimento" aria-labelledby="atendimento-title">
+    <div class="plate-inner">
+      <div class="section-head">
+        <h2 id="atendimento-title">Três setas, três caminhos até o conserto.</h2>
+        <p>Escolha o jeito mais prático para você. Em todos eles, a conversa começa no WhatsApp, direto com o técnico.</p>
+      </div>
+
+      <figure class="fig fig-routes">
+        <div class="routes">
+          <div class="node node-you" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M8 22 24 9l16 13M12 19v20h24V19M20 39V28h8v11"/></svg>
+            <span>Você</span>
+          </div>
+
+          <div class="route route-red">
+            <h3>Você traz</h3>
+            <p>Combine pelo WhatsApp e leve o equipamento até a Cabral. O endereço é passado na conversa.</p>
+            <div class="route-line" aria-hidden="true"><svg class="head" viewBox="0 0 14 14"><path d="M0 0 14 7 0 14z"/></svg></div>
+          </div>
+
+          <div class="route route-amber">
+            <h3>Retiramos e devolvemos</h3>
+            <p>A Cabral busca o equipamento, faz o conserto e entrega de volta pra você.</p>
+            <div class="route-line route-line-go" aria-hidden="true"><svg class="head" viewBox="0 0 14 14"><path d="M0 0 14 7 0 14z"/></svg></div>
+            <div class="route-line route-line-back" aria-hidden="true"><svg class="head" viewBox="0 0 14 14"><path d="M14 0 0 7l14 7z"/></svg></div>
+          </div>
+
+          <div class="route route-blue" id="remoto">
+            <h3>Acesso remoto</h3>
+            <p>Para problemas de programa e configuração. Você autoriza a conexão e acompanha tudo pela tela, sem sair de casa.</p>
+            <div class="route-line" aria-hidden="true">
+              <svg class="wave wave-l" viewBox="0 0 20 24"><path d="M14 4a12 12 0 0 0 0 16M8 8a6 6 0 0 0 0 8"/></svg>
+              <svg class="wave wave-r" viewBox="0 0 20 24"><path d="M6 4a12 12 0 0 1 0 16M12 8a6 6 0 0 1 0 8"/></svg>
+            </div>
+          </div>
+
+          <div class="node node-cabral" aria-hidden="true">
+            <svg viewBox="0 0 64 48"><use href="#logo-mark"/></svg>
+            <span>Cabral</span>
+          </div>
+        </div>
+        <figcaption>
+          <span class="fig-no">Fig. 2</span>
+          <span>Para agilizar o orçamento, mande o modelo do aparelho, o que aconteceu e, se puder, uma foto.</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="cams" id="cameras" aria-labelledby="cameras-title">
+    <figure class="fig fig-plan">
+      <div class="fig-sheet">
+        <svg viewBox="0 0 440 320" role="img" aria-labelledby="fig3-title">
+          <title id="fig3-title">Planta de uma loja com três câmeras de segurança instaladas nos cantos, cada uma com seu campo de visão.</title>
+          <g class="dim">
+            <line x1="30" y1="22" x2="410" y2="22"/>
+            <line x1="30" y1="14" x2="30" y2="30"/><line x1="410" y1="14" x2="410" y2="30"/>
+            <text x="220" y="16">loja ou escritório</text>
+          </g>
+          <g class="fov">
+            <path d="M44 44 L230 104 L150 236 Z"/>
+            <path d="M396 44 L250 90 L332 214 Z"/>
+            <path d="M396 284 L230 300 L264 150 Z"/>
+          </g>
+          <g class="walls">
+            <path d="M30 40 H410 V300 H250"/>
+            <path d="M170 300 H30 V40"/>
+            <path class="wall-thin" d="M300 40 V140 H410"/>
+          </g>
+          <g class="furn">
+            <path class="door" d="M170 300 A80 80 0 0 1 250 220"/>
+            <line class="door-leaf" x1="250" y1="300" x2="250" y2="220"/>
+            <rect x="60" y="150" width="120" height="34"/>
+            <rect x="320" y="56" width="74" height="18"/><rect x="320" y="86" width="74" height="18"/>
+            <rect x="52" y="60" width="18" height="70"/>
+          </g>
+          <g class="labels">
+            <text x="120" y="172">balcão</text>
+            <text x="356" y="128">estoque</text>
+            <text x="210" y="290">entrada</text>
+          </g>
+          <g class="cam">
+            <rect x="34" y="36" width="20" height="14" rx="2" transform="rotate(18 44 43)"/>
+            <rect x="386" y="36" width="20" height="14" rx="2" transform="rotate(-18 396 43)"/>
+            <rect x="386" y="278" width="20" height="14" rx="2" transform="rotate(18 396 285)"/>
+          </g>
+        </svg>
+      </div>
+      <figcaption>
+        <span class="fig-no">Fig. 3</span>
+        <span>Exemplo ilustrativo: câmeras nos cantos cobrindo a entrada, o balcão e o estoque.</span>
+      </figcaption>
+    </figure>
+
+    <div class="cams-copy">
+      <h2 id="cameras-title">Câmeras e suporte para empresas.</h2>
+      <p>A Cabral instala câmeras de segurança em casas, lojas e escritórios, e cuida dos computadores da sua empresa com suporte e manutenção. Quando dá para resolver à distância, o atendimento é por acesso remoto.</p>
+      <ul class="checklist">
+        <li>Instalação de câmeras de segurança</li>
+        <li>Suporte e manutenção de computadores</li>
+        <li>Acesso remoto para suporte online</li>
+      </ul>
+      <p class="muted">Para orçar as câmeras, mande quantos ambientes você quer cobrir e algumas fotos do local.</p>
+      <a class="btn btn-ink" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site.%20Quero%20um%20or%C3%A7amento%20de%20c%C3%A2meras%20de%20seguran%C3%A7a." target="_blank" rel="noopener">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-wa"/></svg>
+        <span>Orçar câmeras no WhatsApp</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="work" id="trabalhos" aria-labelledby="trabalhos-title">
+    <div class="section-head">
+      <h2 id="trabalhos-title">Na bancada</h2>
+      <p>Reparos e instalações feitos pela Cabral. Acompanhe os trabalhos mais recentes no <a href="https://www.instagram.com/cabralinforedes/" target="_blank" rel="noopener">Instagram @cabralinforedes</a>.</p>
+    </div>
+    <!-- Para trocar um espaço por foto real: substitua o <div class="photo-slot">…</div> por
+         <img src="assets/trabalhos/nome-da-foto.jpg" alt="Descrição do trabalho" width="800" height="600" loading="lazy"> -->
+    <div class="gallery">
+      <figure class="shot">
+        <div class="photo-slot" role="img" aria-label="Espaço para foto de troca de tela">
+          <svg viewBox="0 0 120 80" aria-hidden="true"><path d="M30 14h60v42H30zM22 60h76l-6 6H28z"/><path class="crack" d="M70 18l-8 12 6 4-10 14"/></svg>
+          <span>Foto em breve</span>
+        </div>
+        <figcaption><span class="fig-no">Fig. 4a</span> Troca de tela</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="photo-slot" role="img" aria-label="Espaço para foto de reparo de placa-mãe">
+          <svg viewBox="0 0 120 80" aria-hidden="true"><path d="M20 14h80v52H20zM48 28h24v24H48zM28 22v10M34 22v10M80 24h14M80 30h14M80 56h14"/></svg>
+          <span>Foto em breve</span>
+        </div>
+        <figcaption><span class="fig-no">Fig. 4b</span> Reparo de placa-mãe</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="photo-slot" role="img" aria-label="Espaço para foto de instalação de câmeras">
+          <svg viewBox="0 0 120 80" aria-hidden="true"><path d="M20 16h18v40M38 24l40 10v14l-40-6zM78 37h10"/></svg>
+          <span>Foto em breve</span>
+        </div>
+        <figcaption><span class="fig-no">Fig. 4c</span> Instalação de câmeras</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="offer" id="desconto" aria-labelledby="desconto-title">
+    <div class="coupon">
+      <div class="coupon-main">
+        <p class="coupon-big"><span class="visually-hidden">Desconto de </span>10%</p>
+        <div>
+          <h2 id="desconto-title">No seu primeiro serviço com a Cabral.</h2>
+          <p>Diga que veio pelo site ou pelo folheto ao pedir o orçamento no WhatsApp.</p>
+          <p class="fine">Válido somente para o primeiro serviço.</p>
+        </div>
+      </div>
+      <div class="coupon-stub">
+        <a class="btn btn-wa" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20usar%20os%2010%25%20de%20desconto%20no%20primeiro%20servi%C3%A7o." target="_blank" rel="noopener">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-wa"/></svg>
+          <span>Usar meu desconto</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="duvidas" aria-labelledby="duvidas-title">
+    <div class="section-head">
+      <h2 id="duvidas-title">Perguntas frequentes</h2>
+    </div>
+    <div class="faq-list">
+      <details>
+        <summary>Vocês atendem em qual região?</summary>
+        <p>São Paulo capital. O endereço para entrega ou retirada do equipamento é combinado pelo WhatsApp.</p>
+      </details>
+      <details>
+        <summary>Preciso sair de casa?</summary>
+        <p>Não necessariamente. A Cabral pode retirar e devolver o seu equipamento, e muitos problemas de programa e configuração se resolvem por acesso remoto.</p>
+      </details>
+      <details>
+        <summary>Como peço um orçamento?</summary>
+        <p>Chame no WhatsApp <a href="https://wa.me/5511976778693" target="_blank" rel="noopener">(11) 97677-8693</a> e conte o modelo do aparelho e o que está acontecendo. Uma foto ajuda bastante.</p>
+      </details>
+      <details>
+        <summary>Vocês atendem PC de mesa também?</summary>
+        <p>Sim. Suporte e manutenção valem para notebooks e computadores de mesa.</p>
+      </details>
+      <details>
+        <summary>Atendem empresas?</summary>
+        <p>Sim. Pequenas empresas contam com instalação de câmeras de segurança, suporte e manutenção dos computadores e acesso remoto.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="close" id="contato" aria-labelledby="contato-title">
+    <div class="close-inner">
+      <h2 id="contato-title">Conte o que aconteceu. A resposta vem pelo WhatsApp.</h2>
+      <a class="phone" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-wa"/></svg>
+        <span>(11) 97677-8693</span>
+      </a>
+      <p class="close-links">
+        <a href="https://www.instagram.com/cabralinforedes/" target="_blank" rel="noopener">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-ig"/></svg>
+          @cabralinforedes
+        </a>
+        <span>São Paulo capital</span>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="title-block" aria-label="Rodapé">
+  <div class="tb">
+    <div class="tb-cell tb-brand">
+      <svg class="brand-mark" viewBox="0 0 64 48" aria-hidden="true"><use href="#logo-mark"/></svg>
+      <span class="brand-word"><span class="brand-name">Cabral</span><span class="brand-sub">Inforedes</span></span>
+    </div>
+    <div class="tb-cell"><span class="tb-k">Serviços</span><span class="tb-v">Tecnologia e informática</span></div>
+    <div class="tb-cell"><span class="tb-k">WhatsApp</span><a class="tb-v" href="https://wa.me/5511976778693" target="_blank" rel="noopener">(11) 97677-8693</a></div>
+    <div class="tb-cell"><span class="tb-k">Instagram</span><a class="tb-v" href="https://www.instagram.com/cabralinforedes/" target="_blank" rel="noopener">@cabralinforedes</a></div>
+    <div class="tb-cell"><span class="tb-k">Região</span><span class="tb-v">São Paulo capital</span></div>
+    <div class="tb-cell"><span class="tb-k">Folha</span><span class="tb-v">1 / 1 · © <span id="ano">2026</span></span></div>
+  </div>
+</footer>
+
+<a class="wa-bar" id="wa-bar" href="https://wa.me/5511976778693?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+  <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-wa"/></svg>
+  <span>Pedir orçamento no WhatsApp</span>
+</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="logo-mark" viewBox="0 0 64 48">
+      <rect x="8" y="6" width="44" height="30" rx="2" fill="none" stroke="currentColor" stroke-width="3.5"/>
+      <path d="M2 40h60l-4 5H6z" fill="currentColor"/>
+      <g stroke-width="3.4" stroke-linecap="square" fill="none">
+        <line x1="14" y1="31" x2="21.6" y2="23.4" stroke="#c95246"/>
+        <line x1="19" y1="33" x2="35.6" y2="16.4" stroke="#e0b045"/>
+        <line x1="26" y1="34" x2="51.6" y2="8.4" stroke="#39b1e2"/>
+      </g>
+      <path d="M26 19l-1.8 8.3-6.5-6.5z" fill="#c95246"/>
+      <path d="M40 12l-1.8 8.3-6.5-6.5z" fill="#e0b045"/>
+      <path d="M56 4l-1.8 8.3-6.5-6.5z" fill="#39b1e2"/>
+    </symbol>
+    <symbol id="ico-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+    <symbol id="ico-ig" viewBox="0 0 24 24"><path fill="currentColor" d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></symbol>
+  </defs>
+</svg>
+
+<script src="main.js" defer></script>
+</body>
+</html>
