@@ -169,7 +169,7 @@ The page is a plate from a repair manual. Light blue-grey drafting paper, navy l
 
 Density is calm and generous: large type, wide rows, long hairline rules, big tap targets (42 to 60px) for older and non-technical visitors on phones. Color is cool and quiet everywhere except where it carries meaning. The three logo arrows (red, amber, blue) are the only chroma, and they are read as the three ways to get a repair done; amber in particular is the hand that points to WhatsApp. Everything is drawn, not photographed, until real work photos arrive; empty photo slots are honest dashed placeholders.
 
-The world rejects the generic small-business template it replaces: hero plus stock photo, a row of icon cards, three numbered steps. Services are a parts list keyed to a drawing; the service modes are a navy route diagram.
+The world rejects the generic small-business template it replaces: hero plus stock photo, a row of icon cards, three numbered steps. Services are detail sheets, each an isometric drawing of the part, numbered to match the main drawing; the service modes are a navy route diagram.
 
 **Key Characteristics:**
 - Cool drafting paper with a faint 24px grid on figure sheets, navy ink, hairline rules.
@@ -178,7 +178,7 @@ The world rejects the generic small-business template it replaces: hero plus sto
 - Square-cornered (2 to 3px) everything; circles only for numbered callouts.
 - Depth is drawn as isometric faces, never shadowed onto surfaces.
 - Amber is action: every WhatsApp entry point and the discount coupon.
-- One authored motion: the notebook comes apart on load.
+- Motion grammar, "the machine at work": the notebook comes apart on load and its parts keep breathing, fans spin, current runs along traces, the remote signal flows, a parcel travels the pickup route, cameras sweep, and each detail sheet arrives broken and gets repaired.
 
 ## Colors
 
@@ -187,10 +187,10 @@ A drafting palette (paper, navy, slate) opened by one committed field of the fly
 ### Primary
 - **Arrow Amber** (#e0b045): The action color. Fills every WhatsApp button, the floating WhatsApp bar on phones, the 10% coupon, the big phone number on the navy close, the 3px underline of each parts-list quote link, and text selection. Text on amber is always Draftsman Navy (7.87:1).
 - **Amber Highlight** (#ebc260): Hover fill for amber buttons only.
-- **Amber Wash** (#f6e7c1): The fading row highlight on hover or target in the parts list.
+- **Amber Wash** (#f6e7c1): Reserved; once the parts-list row highlight, now unused.
 
 ### Secondary
-- **Flyer Royal** (#1d4594): Owns the full-bleed hero band, the parts-list reference numerals and the 3px rule that opens the parts list. White on royal is 9.01:1, On-Royal Mist (#cfdcf3) 6.51:1, and amber 4.49:1, so amber text on royal only goes at large or bold sizes. Royal Deep (#16377a) is reserved for hover.
+- **Flyer Royal** (#1d4594): Owns the full-bleed hero band, the number circles on the detail sheets and the detail-sheet border on hover. White on royal is 9.01:1, On-Royal Mist (#cfdcf3) 6.51:1, and amber 4.49:1, so amber text on royal only goes at large or bold sizes. Royal Deep (#16377a) is reserved for hover.
 - **Arrow Blue** (#39b1e2): The third arrow and the remote-access route; the dashed camera fields of view in Fig. 3; the focus ring on navy grounds. On navy it reads at 6.44:1; on light paper only 2.18:1, so it is a graphic color on light grounds, never text.
 - **Deep Signal Blue** (#1b6f99): The interactive highlight on light grounds: active and hovered numbered callouts, FAQ question hover. 4.94:1 on paper.
 
@@ -230,7 +230,7 @@ A drafting palette (paper, navy, slate) opened by one committed field of the fly
 ### Hierarchy
 - **Display** (850, clamp(2.5rem, 4.3vw, 3.9rem), 0.98, width 110%, uppercase): The hero headline only. On phones width drops to 108% and size to clamp(2.2rem, 10.4vw, 3rem).
 - **Headline** (820, clamp(1.9rem, 3.6vw, 3rem), 1.04, width 112%, uppercase): Section headings. The cameras and close headings use the same recipe at slightly different clamps; the coupon heading is a smaller sibling (800, width 108%). On phones all headlines go to width 100%, clamp(1.75rem, 8vw, 2.2rem).
-- **Title** (780, 1.3rem, 1.2, width 100%, sentence case): Service names in the parts list; route names on the plate (1.25rem, width 105%); FAQ questions (700, 1.12rem).
+- **Title** (780, 1.3rem, 1.2, width 100%, sentence case): Service names under the detail sheets (1.35rem); route names on the plate (1.25rem, width 105%); FAQ questions (700, 1.12rem).
 - **Numeral** (850 to 900, width 118 to 125%, tabular): The two oversized figures, "10%" on the coupon and the phone number "(11) 97677-8693" on the close, which scales to clamp(1.55rem, 7.6vw, 5.6rem).
 - **UI** (750, 1rem, 1.2): Buttons, the floating bar, the bold link voice (nav at 600, legend and checklist at 600 to 650, quote links at 700).
 - **Label** (650, 0.66 to 0.8rem, width 75%, 0.09em tracking, uppercase): Figure numbers ("Fig. 1"), field labels ("Quando", "Serviço"), title-block keys, the toggle "Montar", the "Inforedes" line of the wordmark (0.28em tracking).
@@ -250,9 +250,9 @@ A centered 1240px column with a fluid gutter of clamp(16px, 4vw, 48px). Major tw
 
 Sections stack vertically separated by a full-width hairline at the top, with vertical padding of clamp(48px, 7vw, 96px) on paper and clamp(56px, 8vw, 112px) on navy plates (the close goes to clamp(64px, 9vw, 120px)). Headings are followed by 18px to the intro and 40 to 56px to the content block.
 
-The parts list is a five-column table on desktop (number and figure ref 88px, name, symptom, service, quote link 12.5rem) that reflows at 1080px to three columns and at 640px to a 48px number rail plus one stacked column. The header is sticky at 68px (60px on phones); anchor scrolling is padded to clear it.
+The services are a grid of detail sheets: three columns on desktop, two at 1080px, one at 640px (where each sheet goes from 4:3 to 16:11). The header is sticky at 68px (60px on phones); anchor scrolling is padded to clear it.
 
-Breakpoints: 1080px (parts list and title block reflow), 900px (single column, nav hidden, cameras copy moves above its figure, floating WhatsApp bar appears), 640px (phone type sizes, full-width primary buttons, single-column legend and gallery).
+Breakpoints: 1080px (detail grid and title block reflow), 900px (single column, nav hidden, cameras copy moves above its figure, floating WhatsApp bar appears), 640px (phone type sizes, full-width primary buttons, single-column legend and gallery).
 
 ## Elevation & Depth
 
@@ -269,7 +269,7 @@ The system is flat. Surfaces are separated by hairline rules, the step from Blue
 
 ## Shapes
 
-Corners are nearly square: 2px for sheets (figure sheets, photo slots, the coupon, checklist boxes) and 3px for controls (buttons, nav links, the figure toggle, route nodes). The floating bar is the softest shape at 4px. Circles are reserved for numbered callouts (36px radius in the drawing, 28px in the legend, 34px in the parts list) and the FAQ plus-sign toggle, which rotates 45 degrees into an x when open.
+Corners are nearly square: 2px for sheets (figure sheets, photo slots, the coupon, checklist boxes) and 3px for controls (buttons, nav links, the figure toggle, route nodes). The floating bar is the softest shape at 4px. Circles are reserved for numbered callouts (36px radius in the drawing, 28px in the legend, 34px on the detail sheets) and the FAQ plus-sign toggle, which rotates 45 degrees into an x when open.
 
 Borders are drawn like linework: 1px Hairline Rule for dividers, 1.5px navy for sheets that need to stand forward (coupon, toggle, title block), 2px navy for buttons and for the rule that opens each list. Figure sheets and the coupon carry two crop marks, 14px L-shaped corner ticks offset outside the top-left and bottom-right corners. Placeholders use a 1.5px dashed Faint Graphite border; arrows and leader lines in the drawings use square or round caps, never soft blobs.
 
@@ -294,13 +294,13 @@ Solid, confident, a little heavy: drafting-weight borders and wide letterforms.
 - **Floating WhatsApp bar:** Below 900px, a fixed amber bar (54px, 12px from the edges) slides up once the hero button scrolls away and slides out when the close section arrives.
 
 ### Figure Sheet (signature)
-The unit of the world. A Figure Sheet ground ruled with the 24px grid, a hairline border, 2px corners, two crop marks, and a caption beneath: condensed "Fig. N" label in navy followed by an Annotation Slate sentence. Every illustration on the page lives in one, and figure numbers are cross-referenced from the parts list.
+The unit of the world. A Figure Sheet ground ruled with the 24px grid, a hairline border, 2px corners, two crop marks, and a caption beneath: condensed "Fig. N" label in navy followed by an Annotation Slate sentence. Every illustration on the page lives in one, and the numbers in Fig. 1 link to the matching detail sheets.
 
 ### Exploded View with Numbered Callouts (signature)
-Fig. 1 draws the notebook as four isometric layers (case, board, keyboard, lid and screen) with navy 1.3px strokes. Navy callout circles with white numerals sit at the end of thin leader lines. Hovering or focusing a callout, a legend item or a parts-list row lights that layer and dims the others to 22%; the circle turns Deep Signal Blue and grows. A "Montar / Desmontar" toggle (condensed caps, 1.5px navy border) collapses and re-explodes the drawing. On load the layers rise apart once over about 1.3s on cubic-bezier(0.16, 1, 0.3, 1); reduced-motion users get the finished drawing.
+Fig. 1 draws the notebook as four isometric layers (case, board, keyboard, lid and screen) with navy 1.3px strokes. Navy callout circles with white numerals sit at the end of thin leader lines. Hovering or focusing a callout or a legend item lights that layer and dims the others to 22%; the circle turns Deep Signal Blue and grows. A "Montar / Desmontar" toggle (condensed caps, 1.5px navy border) collapses and re-explodes the drawing. On load the layers rise apart once over about 1.3s on cubic-bezier(0.16, 1, 0.3, 1); reduced-motion users get the finished drawing.
 
-### Parts List
-A numbered table keyed to the figures, opened by a 2px navy rule and divided by hairlines. Each row: a 34px navy number circle with its figure reference, the service name as a title, condensed field labels ("Quando", "Serviço") over symptom and service text, and an amber-underlined quote link that opens WhatsApp with a prefilled message. A targeted row gets a soft left-to-right Arrow Blue wash.
+### Detail Sheets (services)
+Six figure sheets in a grid, each with an isometric drawing of the part the service fixes, generated by `tools/draw.mjs` (cracked panel, keyboard deck with a popped key, motherboard with a scorch mark, fan and heatsink, monitor with a remote cursor, wall camera). A 34px royal number circle sits in the top-left corner; the numbers 1–4 match the callouts in Fig. 1. Below the sheet: the service name, a one-line symptom in Annotation Slate, and an amber-underlined quote link stretched over the whole card, which opens WhatsApp with a prefilled message. On hover or focus the sheet lifts 6px, gains a soft shadow and a royal border. With motion allowed, each sheet arrives broken (crack, popped key, scorch, dust, camera not yet mounted) and is repaired about a second later; hovering a repaired sheet replays the repair. The resting and reduced-motion state is always the repaired one.
 
 ### Route Diagram (navy plate)
 Fig. 2 on a navy plate: two bordered nodes ("Você" with a drawn house, "Cabral" with the logo) bracket three routes, each a title, a sentence, and a 4px line in its arrow color with an arrowhead. Solid for "Você traz", a dashed pair going and returning for "Retiramos e devolvemos", dotted with signal arcs for "Acesso remoto". On phones the nodes become horizontal bars above and below the routes.
@@ -328,7 +328,7 @@ The footer is drawn as a technical drawing's title block on the navy plate: a bo
 - **Do** keep tap targets at 42px or taller; primary actions 48 to 58px.
 - **Do** show depth by drawing it (isometric faces in the three face tones), and keep surfaces flat with hairline rules.
 - **Do** use Deep Signal Blue (#1b6f99) for highlights and focus indication on light grounds; Arrow Blue is for navy grounds and graphics.
-- **Do** keep authored motion to the one exploded-view entrance and short state transitions on cubic-bezier(0.16, 1, 0.3, 1), and honor prefers-reduced-motion.
+- **Do** give motion a mechanical reason (parts separating, a fan turning, current, signal, a parcel, a camera sweep, a repair) on cubic-bezier(0.16, 1, 0.3, 1), keep content visible by default, pause loops off screen, and honor prefers-reduced-motion.
 
 ### Don't:
 - **Don't** add shadows to sheets, rows, plates or the coupon; a shadow means the WhatsApp action.
