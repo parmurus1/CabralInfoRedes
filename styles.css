@@ -36,6 +36,12 @@
   --blue: #39b1e2;
   --blue-ink: #1b6f99;
 
+  --royal: #1d4594;
+  --royal-2: #16377a;
+  --on-royal: #ffffff;
+  --on-royal-2: #cfdcf3;
+  --amber-wash: #f6e7c1;
+
   --plate: #13233a;
   --plate-2: #1b2f4b;
   --on-plate: #eaf0f6;
@@ -303,6 +309,27 @@ html { scrollbar-color: var(--ink-3) var(--paper-2); }
 .legend a:hover b, .legend a.is-active b { background: var(--blue-ink); }
 .legend a:hover span, .legend a.is-active { text-decoration: underline; }
 
+/* ---------- Hero band: the flyer's royal blue owns the first viewport ---------- */
+.hero-band { background: var(--royal); color: var(--on-royal); }
+.hero-band h1 { color: var(--on-royal); }
+.hero-band .lede { color: var(--on-royal-2); }
+.hero-band .hero-note { color: var(--on-royal-2); border-top-color: rgba(207, 220, 243, 0.3); }
+.hero-band .hero-note strong { color: var(--amber); }
+.hero-band .hero-note a, .hero-band .link-arrow { color: var(--on-royal); }
+.hero-band .link-arrow { text-decoration-color: rgba(207, 220, 243, 0.45); }
+.hero-band .link-arrow:hover { text-decoration-color: var(--on-royal); }
+.hero-band .btn-wa { border-color: var(--amber); box-shadow: 0 18px 34px -16px rgba(5, 14, 40, 0.75); }
+.hero-band .btn-wa:hover { border-color: var(--amber-hi); }
+.hero-band .fig-sheet { border-color: transparent; box-shadow: 0 30px 60px -30px rgba(5, 14, 40, 0.7); }
+.hero-band .fig-sheet::before, .hero-band .fig-sheet::after { border-color: var(--amber); }
+.hero-band .fig figcaption { color: var(--on-royal-2); }
+.hero-band .fig-no { color: var(--on-royal); }
+.hero-band .legend a { color: var(--on-royal); }
+.hero-band .legend b { background: var(--amber); color: var(--ink); }
+.hero-band .legend a:hover b, .hero-band .legend a.is-active b { background: var(--on-royal); }
+.hero-band :focus-visible { outline-color: var(--amber); }
+.hero-band ::selection { background: var(--amber); color: var(--ink); }
+
 /* ---------- Section heads ---------- */
 .section-head { max-width: 46rem; }
 .section-head h2 {
@@ -312,19 +339,19 @@ html { scrollbar-color: var(--ink-3) var(--paper-2); }
 .section-head p { margin-top: 18px; color: var(--ink-2); font-size: 1.1rem; max-width: 38em; }
 
 /* ---------- Parts list ---------- */
-.parts { max-width: var(--max); margin: 0 auto; padding: clamp(48px, 7vw, 96px) var(--gutter); border-top: 1px solid var(--rule); }
-.parts-list { list-style: none; margin: 48px 0 0; padding: 0; border-top: 2px solid var(--ink); }
+.parts { max-width: var(--max); margin: 0 auto; padding: clamp(56px, 8vw, 104px) var(--gutter); }
+.parts-list { list-style: none; margin: 48px 0 0; padding: 0; border-top: 3px solid var(--royal); }
 .part {
   display: grid; align-items: baseline;
   grid-template-columns: 88px minmax(0, 1.05fr) minmax(0, 1.35fr) minmax(0, 1.2fr) 12.5rem;
   gap: 8px 28px; padding: 22px 0; border-bottom: 1px solid var(--rule);
   transition: background-color 0.3s var(--ease);
 }
-.part:target, .part.is-active { background: linear-gradient(90deg, rgba(57, 177, 226, 0.12), rgba(57, 177, 226, 0)); }
+.part:hover, .part:target, .part.is-active { background: linear-gradient(90deg, var(--amber-wash), rgba(246, 231, 193, 0) 85%); }
 .part-ref { display: flex; align-items: center; gap: 10px; padding-left: 4px; }
 .ref {
   display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 50%;
-  background: var(--ink); color: #fff; font-family: var(--f-display); font-weight: 800; font-size: 0.95rem;
+  background: var(--royal); color: #fff; font-family: var(--f-display); font-weight: 800; font-size: 0.95rem;
 }
 .ref-fig { font-size: 0.7rem; color: var(--ink-3); }
 .part-name { font-size: 1.3rem; font-weight: 780; font-stretch: 100%; line-height: 1.2; }
@@ -414,7 +441,7 @@ html { scrollbar-color: var(--ink-3) var(--paper-2); }
 }
 .checklist li::before {
   content: ""; flex: none; width: 18px; height: 18px; border: 2px solid var(--ink); border-radius: 2px;
-  background: linear-gradient(var(--ink), var(--ink)) center / 8px 8px no-repeat;
+  background: var(--amber) linear-gradient(var(--ink), var(--ink)) center / 8px 8px no-repeat;
 }
 .cams-copy .btn { margin-top: 28px; }
 

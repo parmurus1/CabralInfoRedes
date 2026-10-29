@@ -15,6 +15,11 @@ colors:
   ink-3: "#556981"
   rule: "#b9c6d4"
   grid: "rgba(19, 35, 58, 0.055)"
+  royal: "#1d4594"
+  royal-2: "#16377a"
+  on-royal: "#ffffff"
+  on-royal-2: "#cfdcf3"
+  amber-wash: "#f6e7c1"
   plate: "#13233a"
   plate-2: "#1b2f4b"
   on-plate: "#eaf0f6"
@@ -177,13 +182,15 @@ The world rejects the generic small-business template it replaces: hero plus sto
 
 ## Colors
 
-A cool, near-monochrome drafting palette (paper, navy, slate) with the three logo arrow hues as the only saturated colors, each holding a job.
+A drafting palette (paper, navy, slate) opened by one committed field of the flyer's royal blue, with the three logo arrow hues as the only other saturated colors, each holding a job.
 
 ### Primary
 - **Arrow Amber** (#e0b045): The action color. Fills every WhatsApp button, the floating WhatsApp bar on phones, the 10% coupon, the big phone number on the navy close, the 3px underline of each parts-list quote link, and text selection. Text on amber is always Draftsman Navy (7.87:1).
 - **Amber Highlight** (#ebc260): Hover fill for amber buttons only.
+- **Amber Wash** (#f6e7c1): The fading row highlight on hover or target in the parts list.
 
 ### Secondary
+- **Flyer Royal** (#1d4594): Owns the full-bleed hero band, the parts-list reference numerals and the 3px rule that opens the parts list. White on royal is 9.01:1, On-Royal Mist (#cfdcf3) 6.51:1, and amber 4.49:1, so amber text on royal only goes at large or bold sizes. Royal Deep (#16377a) is reserved for hover.
 - **Arrow Blue** (#39b1e2): The third arrow and the remote-access route; the dashed camera fields of view in Fig. 3; the focus ring on navy grounds. On navy it reads at 6.44:1; on light paper only 2.18:1, so it is a graphic color on light grounds, never text.
 - **Deep Signal Blue** (#1b6f99): The interactive highlight on light grounds: active and hovered numbered callouts, FAQ question hover. 4.94:1 on paper.
 
@@ -208,6 +215,8 @@ A cool, near-monochrome drafting palette (paper, navy, slate) with the three log
 **The Amber Is Action Rule.** Amber fills only the things that lead to WhatsApp, plus the discount coupon. On an amber ground the button inverts to navy so the action still stands out.
 
 **The Three Arrows Rule.** Red, amber and blue appear together as a set (the logo, the screen of Fig. 1, the three routes in Fig. 2). Used alone, red is a fault mark and blue is a highlight; neither becomes decoration.
+
+**The Royal Opening Rule.** The first viewport is a full-bleed royal band (the warmth the flyer has). The figure sheet sits on it as a lifted white sheet with amber crop marks, and the legend badges turn amber. Royal stays out of the rest of the page except as parts-list numerals; navy carries the later plates.
 
 **The Navy Plate Rule.** Dark surfaces are full-bleed navy plates that span the viewport, never dark cards on paper. Everything on a plate uses the on-plate tokens.
 
