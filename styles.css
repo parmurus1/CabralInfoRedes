@@ -26,7 +26,7 @@
   --sheet: #f8fafc;
   --ink: #13233a;
   --ink-2: #41546d;
-  --ink-3: #6a7c93;
+  --ink-3: #556981;
   --rule: #b9c6d4;
   --grid: rgba(19, 35, 58, 0.055);
 
@@ -79,7 +79,8 @@ a:hover { text-decoration-thickness: 2px; }
 img, svg { display: block; max-width: 100%; }
 b, strong { font-weight: 700; }
 
-:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; border-radius: 2px; }
+:focus-visible { outline: 3px solid var(--blue-ink); outline-offset: 3px; border-radius: 2px; }
+.plate :focus-visible, .close :focus-visible, .title-block :focus-visible { outline-color: var(--blue); }
 
 html { scrollbar-color: var(--ink-3) var(--paper-2); }
 ::-webkit-scrollbar { width: 12px; height: 12px; }
